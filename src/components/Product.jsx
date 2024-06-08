@@ -152,7 +152,7 @@ const Product = () => {
                       </p>
                     )}
                     <p className="mt-2 text-green-500 font-semibold text-xs lg:text-base md:text-sm">
-                      Info lebih lanjut silahkan hubungi kami
+                      *Info lebih lanjut silahkan hubungi kami
                     </p>
                   </div>
 
@@ -166,7 +166,7 @@ const Product = () => {
                         className="mr-2 text-xl lg:text-xl md:text-xl"
                       />{" "}
                       <p className="text-xs lg:text-sm md:text-sm">
-                        WhatsApp kami
+                        WhatsApp
                       </p>
                     </div>
                   </button>
