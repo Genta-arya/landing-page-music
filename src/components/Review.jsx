@@ -78,7 +78,7 @@ const Review = ({ image, paragraf1, paragraf2, color, colorText }) => {
                   className="w-40 lg:w-80 rounded-full"
                 />
               </div>
-              <p className="text-center font-bold lg:mr-0 mr-3 mt-8">Anchay Entertainment</p>
+              <p className="text-center font-bold lg:mr-0 mr-3 mt-8">AFC Entertainment</p>
             </div>
             <p
               className=" italic font-serif"

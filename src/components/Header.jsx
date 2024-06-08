@@ -44,7 +44,7 @@ const Header = () => {
       >
         <div className="py-16 text-center flex flex-col gap-2 italic md:mt-8">
           <p className="text-white text-sm font-bold text-center lg:text-3xl md:text-3xl font-serif">
-            {splitText("Anchay  ")}
+            {splitText("AFC  ")}
             <span className="text-sky-300 ">
               {splitText("Entertainment ")}
             </span>
