@@ -149,7 +149,7 @@ const Komentar = () => {
           <RendersStar />
         </div>
         <p className="text-lg font-bold lg:w-96 md:w-96 w-72 mt-4 -mb-4 p">
-          <span>Ayo Berikan Ulasan  kepuasan kalian</span> <span className="text-red-500">Tentang Amplang kami </span>
+          <span>Ayo Berikan Ulasan  kepuasan kalian</span> <span className="text-red-500">Tentang Layanan Kami </span>
         </p>
         <form className="border border-gray-300 px-4 md:px-8  lg:pb-8 lg:pt-8 lg:pl-12 lg:pr-12 rounded-lg mt-4" onSubmit={handleFormSubmit}>
           <div className="mb-2 ">
