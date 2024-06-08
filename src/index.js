@@ -13,7 +13,7 @@ import { Provider } from "react-redux";
 import { store } from "./Redux/store";
 import PageDashboard from "./Admin/Dashboard/Page";
 
-ReactGA.initialize("G-1MLVJHR41Z");
+ReactGA.initialize("G-YSS9PB0ZP8");
 ReactGA.send({
   hitType: "pageview",
   page: window.location.pathname,
