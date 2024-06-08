@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
-import { db } from "../../../services/Firebase/FirebaseConfig";
+
 import CardListProduk from "./components/CardListProduk";
 import SearchProduk from "./components/SearchProduk";
-import { collection, getDocs, orderBy, query } from "firebase/firestore";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faSortAmountDown,
