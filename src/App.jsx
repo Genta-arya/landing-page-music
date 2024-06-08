@@ -108,24 +108,24 @@ const App = () => {
   return (
     <main className="min-h-screen w-full relative">
       <Helmet>
-        <title>Anchay Sewa Orgen Tunggal - Musik Pernikahan Ketapang Kalimantan Barat</title>
+        <title>AFC Sewa Orgen Tunggal - Musik Pernikahan Ketapang Kalimantan Barat</title>
         <meta
           name="description"
-          content="Anchay Sewa Orgen Tunggal menghadirkan musik yang memukau untuk pernikahan Anda. Dengan alat musik berkualitas tinggi dan musisi profesional, kami memastikan setiap momen istimewa Anda diiringi oleh lantunan nada yang indah."
+          content="AFC Sewa Orgen Tunggal menghadirkan musik yang memukau untuk pernikahan Anda. Dengan alat musik berkualitas tinggi dan musisi profesional, kami memastikan setiap momen istimewa Anda diiringi oleh lantunan nada yang indah."
         />
         <meta
           name="keywords"
-          content="Sewa Orgen Tunggal, Musik Pernikahan, Orgen Tunggal, Layanan Musik Pernikahan, Anchay Orgen Tunggal, Musisi Pernikahan, Musik Acara, Musik Pernikahan Profesional"
+          content="Sewa Orgen Tunggal, Musik Pernikahan, Orgen Tunggal, Layanan Musik Pernikahan, AFC Orgen Tunggal, Musisi Pernikahan, Musik Acara, Musik Pernikahan Profesional"
         />
         <meta
           property="og:title"
-          content="Anchay Sewa Orgen Tunggal - Musik Pernikahan Ketapang Kalimantan Barat"
+          content="AFC Sewa Orgen Tunggal - Musik Pernikahan Ketapang Kalimantan Barat"
         />
         <meta
           property="og:description"
-          content="Anchay Sewa Orgen Tunggal menghadirkan musik yang memukau untuk pernikahan Anda. Dengan alat musik berkualitas tinggi dan musisi profesional, kami memastikan setiap momen istimewa Anda diiringi oleh lantunan nada yang indah."
+          content="AFC Sewa Orgen Tunggal menghadirkan musik yang memukau untuk pernikahan Anda. Dengan alat musik berkualitas tinggi dan musisi profesional, kami memastikan setiap momen istimewa Anda diiringi oleh lantunan nada yang indah."
         />
-        <meta property="og:url" content="http://www.anchayorgen.com" />
+        <meta property="og:url" content="http://www.AFCorgen.com" />
         <meta property="og:type" content="website" />
       </Helmet>
       {VisibleSplashScreen ? (

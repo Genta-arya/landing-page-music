@@ -11,7 +11,7 @@ const PageDashboard = () => {
   return (
     <div className="">
       <Helmet>
-        <title>Anchay Sewa Orgen Tunggal - Dashboard</title>
+        <title>AFC Sewa Orgen Tunggal - Dashboard</title>
 
         <meta property="og:title" content="Amplang Epok Ema - Dashboard" />
       </Helmet>
