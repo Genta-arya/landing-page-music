@@ -49,9 +49,7 @@ const ThemeReview = () => {
             rows="4"
           />
         </div>
-        <div className="mt-4">
-          <CustomImageInput onChange={handleImageChange} title="Change Image" />
-        </div>
+       
       </div>
 
       {/* Website Preview */}
