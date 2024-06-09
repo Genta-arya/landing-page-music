@@ -69,7 +69,7 @@ const Header = () => {
                 className="hover:scale-95 lg:text-base md:text-base  text-xs px-4 bg-sky-500 py-1 text-white font-semibold lg:px-8 lg:py-2 rounded-lg overflow-hidden transition duration-300 ease-in-out hover:bg-gradient-to-r from-sky-400 via-blue-500 to-indigo-500 hover:text-white"
               >
                 <p className="">
-                Layanan Kami
+                Explore Layanan Kami
                   </p>
               </motion.button>
             </Link>
