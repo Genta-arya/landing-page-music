@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 
 import useThemeKomposisi from "../services/Hooks/useThemeKomposisi";
-import Loading from "../Admin/Auth/components/Loading";
+
 
 const Content = ({ data }) => {
   const { data: fetch, loading } = useThemeKomposisi();
