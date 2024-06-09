@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import icon from "../assets/icons.png";
+import icon from "../assets/icon.png";
 import "../style.css";
 import shoope from "../assets/shoope.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

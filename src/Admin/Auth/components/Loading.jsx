@@ -1,5 +1,5 @@
 import React from 'react';
-import icon from '../../../assets/icons.png'; // Pastikan path ke gambar ikon sesuai
+import icon from '../../../assets/icon.png'; // Pastikan path ke gambar ikon sesuai
 
 const Loading = () => {
   return (

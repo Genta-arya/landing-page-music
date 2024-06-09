@@ -29,7 +29,7 @@ const Content = ({ data }) => {
             Peralatan Kami
           </motion.span>
           <div className="flex justify-center">
-            <div className="grid  md:grid-cols-2 grid-cols-1 gap-8 md:ml-20 lg:items-center lg:grid-cols-3 lg:gap-12  lg:ml-0 ml-8">
+            <div className="grid  md:grid-cols-2 grid-cols-1 gap-8 md:ml-20 lg:items-center lg:grid-cols-4 lg:gap-12  lg:ml-0 ml-8">
               {items.map((item, index) => (
                 <div
                   key={item.id}
