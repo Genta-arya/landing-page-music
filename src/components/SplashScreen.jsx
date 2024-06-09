@@ -8,7 +8,7 @@ const SplashScreen = () => {
       <motion.img
         src={icon}
         alt="amplang epok ema"
-        className="w-52 "
+        className="w-52 rounded-full "
         initial={{ scale: 0 }}
         animate={{ scale: 1 }}
         transition={{ duration: 1.5 }}
