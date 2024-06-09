@@ -56,7 +56,7 @@ const Form = () => {
       <div className="w-full max-w-md p-8 space-y-6 bg-white rounded-lg shadow-md">
         <div>
           <p className="text-lg font-bold text-center ">
-            System Amplang Epok Ema
+            System AFC orgen tunggal
           </p>
           <p className="text-lg font-bold text-center ">V.1.0</p>
         </div>

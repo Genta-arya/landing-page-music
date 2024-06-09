@@ -44,7 +44,7 @@ const Content = ({ data }) => {
                     <div className="mb-5">
                       <img
                         src={item.image || "https://via.placeholder.com/150"}
-                        alt={`amplang epok ema ${item.name}`}
+                        alt={`AFC orgen tunggal ${item.name}`}
                         className="w-40 mb-2 rounded-lg"
                       />
                     </div>

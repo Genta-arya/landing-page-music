@@ -7,7 +7,7 @@ const SplashScreen = () => {
     <div className="flex items-center justify-center h-screen bg-white">
       <motion.img
         src={icon}
-        alt="amplang epok ema"
+        alt="AFC orgen tunggal"
         className="w-52 rounded-full "
         initial={{ scale: 0 }}
         animate={{ scale: 1 }}
