@@ -108,7 +108,7 @@ const App = () => {
   return (
     <main className="min-h-screen w-full relative">
       <Helmet>
-        <title>AFC Sewa Orgen Tunggal - Musik Pernikahan Ketapang Kalimantan Barat</title>
+        <title>AFC Entertainment Sewa Orgen Tunggal - Musik Pernikahan Ketapang Kalimantan Barat</title>
         <meta
           name="description"
           content="AFC Sewa Orgen Tunggal menghadirkan musik yang memukau untuk pernikahan Anda. Dengan alat musik berkualitas tinggi dan musisi profesional, kami memastikan setiap momen istimewa Anda diiringi oleh lantunan nada yang indah."
