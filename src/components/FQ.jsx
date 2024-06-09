@@ -43,7 +43,7 @@ const Fq = () => {
         <div className="bg-white shadow-2xl border rounded-md py-4 px-8 items-center text-center">
           <h2 className="lg:text-xl md:text-xl text-base font-bold flex justify-center text-center items-center">
             <FontAwesomeIcon icon={faMusic} className="mr-4 text-red-500" />
-            Mengapa Memilih Kami
+            Mengapa Kami Hadir
           </h2>
         </div>
       </div>
