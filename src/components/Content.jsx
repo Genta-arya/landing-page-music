@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 
 import useThemeKomposisi from "../services/Hooks/useThemeKomposisi";
 
-
 const Content = ({ data }) => {
   const { data: fetch, loading } = useThemeKomposisi();
   const items = data || fetch;
@@ -29,7 +28,7 @@ const Content = ({ data }) => {
             Peralatan Kami
           </motion.span>
           <div className="flex justify-center">
-            <div className="grid  md:grid-cols-2 grid-cols-1 gap-8 md:ml-20 lg:items-center lg:grid-cols-4 lg:gap-12  lg:ml-0 ml-8">
+            <div className="grid  md:grid-cols-2 grid-cols-1 gap-8 md:ml-0 lg:items-center lg:grid-col-2 xl:grid-cols-4 lg:gap-12  lg:ml-0 ">
               {items.map((item, index) => (
                 <div
                   key={item.id}
@@ -45,10 +44,10 @@ const Content = ({ data }) => {
                       <img
                         src={item.image || "https://via.placeholder.com/150"}
                         alt={`AFC orgen tunggal ${item.name}`}
-                        className="w-40 mb-2 rounded-lg"
+                        className="  w-full mb-2 rounded-lg"
                       />
                     </div>
-                    <h2 className="lg:text-xl md:text-xl -mt-4 font-bold">
+                    <h2 className="lg:text-xl md:text-xl  font-bold mt-auto border-b-2">
                       {item.name}
                     </h2>
                     <p className="text-xs text-gray-400">{item.description}</p>
