@@ -1,7 +1,11 @@
 import React, { useEffect, useState } from "react";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+import {
+  faFacebook,
+  faTelegram,
+  faWhatsapp,
+} from "@fortawesome/free-brands-svg-icons";
 
 import { AnimatePresence, motion } from "framer-motion";
 import ReactGA from "react-ga4";
@@ -10,6 +14,7 @@ import ModalImage from "./ModalImageView";
 import Countdown from "react-countdown";
 import useProduct from "../services/Hooks/useProduct";
 import SkeletonGrid from "../Admin/Dashboard/Produk/components/SkeletonGrid";
+import { faShare } from "@fortawesome/free-solid-svg-icons";
 const Product = () => {
   const [selectData, setSelectData] = useState(null);
 
@@ -30,7 +35,6 @@ const Product = () => {
     return formattedPrice.replace(",00", "");
   };
 
-
   const handleOpenImage = (data) => {
     setIsOpenImage(true);
     setSelectData(data);
@@ -49,7 +53,6 @@ const Product = () => {
     window.open(whatsappURL, "_blank");
   };
   const handleClose = () => {
-   
     setIsOpenImage(false);
   };
 
@@ -83,6 +86,38 @@ const Product = () => {
       localStorage.setItem("startTime", Date.now());
     }
   }, []);
+
+  const handleShare = (platform, product) => {
+    let shareURL = "https://sewaorgenketapang.my.id/";
+    let message = `Booking kami ${product.name} , Lihat sekarang`;
+
+    switch (platform) {
+      case "whatsapp":
+        window.open(
+          `https://wa.me/?text=${encodeURIComponent(message + " " + shareURL)}`,
+          "_blank"
+        );
+        break;
+      case "facebook":
+        window.open(
+          `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(
+            shareURL
+          )}&quote=${encodeURIComponent(message)}`,
+          "_blank"
+        );
+        break;
+      case "telegram":
+        window.open(
+          `https://t.me/share/url?url=${encodeURIComponent(
+            shareURL
+          )}&text=${encodeURIComponent(message)}`,
+          "_blank"
+        );
+        break;
+      default:
+        break;
+    }
+  };
 
   return (
     <>
@@ -165,11 +200,38 @@ const Product = () => {
                         icon={faWhatsapp}
                         className="mr-2 text-xl lg:text-xl md:text-xl"
                       />{" "}
-                      <p className="text-xs lg:text-sm md:text-sm">
-                        WhatsApp
-                      </p>
+                      <p className="text-xs lg:text-sm md:text-sm">WhatsApp</p>
                     </div>
                   </button>
+
+                  <div>
+                    <hr className="border-t-2 mt-4 mb-2" />
+                    <div className="flex justify-end items-center gap-2 mr-5  mt-4">
+                    
+
+                      <p className="font-bold text-sm">Share paket</p>
+                    </div>
+                    <div className="flex justify-end gap-2 mt-2">
+                      <button onClick={() => handleShare("whatsapp", product)}>
+                        <FontAwesomeIcon
+                          icon={faWhatsapp}
+                          className=" hover:bg-green-400 bg-green-500 rounded-full px-3 py-3 text-white text-sm"
+                        />
+                      </button>
+                      <button onClick={() => handleShare("facebook", product)}>
+                        <FontAwesomeIcon
+                          icon={faFacebook}
+                          className=" bg-blue-500 hover:bg-blue-400 rounded-full px-3 py-3 text-white text-sm"
+                        />
+                      </button>
+                      <button
+                        onClick={() => handleShare("telegram", product)}
+                   
+                      >
+                        <FontAwesomeIcon icon={faTelegram}  className="  hover:bg-blue-300 bg-blue-400 rounded-full px-3 py-3 text-white text-sm" />
+                      </button>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
