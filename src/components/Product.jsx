@@ -89,7 +89,7 @@ const Product = () => {
 
   const handleShare = (platform, product) => {
     let shareURL = "https://sewaorgenketapang.my.id/";
-    let message = `Booking kami ${product.name} , Lihat sekarang`;
+    let message = `Booking ${product.name} , Lihat sekarang`;
 
     switch (platform) {
       case "whatsapp":
